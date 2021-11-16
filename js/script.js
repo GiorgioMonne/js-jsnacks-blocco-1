@@ -54,16 +54,17 @@ if(pUno == pDue){
 // JSnack 3
 //  Stampa le potenze di 2 fino a 1000.
 
-let potenza =2;
-let j =0;
-while(j < 1000){
-    j++;
-    potenza = potenza * 2; 
-    if(potenza >= 1000){
-        potenza = potenza/2;
-    }
+let potenza = 1;
+// let sentinella = false;
+// let j =1;
+while(potenza < 1000){
+    console.log(potenza);
+    potenza *= 2;
+    // j++;
+    
 }
-console.log("Ultima potenza di 2 prima di 1000"+potenza);
+potenza = potenza/2;
+console.log("Ultima potenza di 2 prima di 1000 "+ potenza);
 
 
 
