@@ -17,53 +17,53 @@
 
 // VERSIONE CON WHILE
 
-// let somma= 0;
-// let i = 0;
+let somma= 0;
+let i = 0;
 
-// while( i < 5){
-//     i++
-//     let numero = parseInt(prompt("Inserisci un numero"));
-//     console.log(numero);
-//     somma += numero;
-// }
+while( i < 5){
+    i++
+    let numero = parseInt(prompt("Inserisci un numero"));
+    console.log(numero);
+    somma += numero;
+}
 
-// console.log(somma);
+console.log(somma);
 
 // JSnack 2
 // Dare la possibilità di inserire due parole.
 // Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
 // Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-// let parolaUno = prompt("Inserisci una parola");
-// console.log("Parola inserita : "+parolaUno);
-// let parolaDue = prompt("Inserisci una seconda parola");
-// console.log("Parola inserita : "+parolaDue);
+let parolaUno = prompt("Inserisci una parola");
+console.log("Parola inserita : "+parolaUno);
+let parolaDue = prompt("Inserisci una seconda parola");
+console.log("Parola inserita : "+parolaDue);
 
-// puno = parolauno.length;
-// pdue = paroladue.length;
+pUno = parolaUno.length;
+pDue = parolaDue.length;
 
-// if(puno == pdue){
-//     console.log("prima parola : "+ parolauno + " uguale alla seconda :" +paroladue);
+if(pUno == pDue){
+    console.log("prima parola : "+ parolaUno + " uguale alla seconda :" +parolaDue);
     
-// }else if(puno > pdue){
-//     console.log("parola più grande stampata : "+parolauno);
-// }else{
-//     console.log("parola più grande stampata : "+parolauno);
-// }
+}else if(pUno > pDue){
+    console.log("parola più grande stampata : "+parolaUno);
+}else{
+    console.log("parola più grande stampata : "+parolaUno);
+}
 
 // JSnack 3
 //  Stampa le potenze di 2 fino a 1000.
 
 let potenza =2;
-let i =0;
-while(i < 1000){
-    i++;
+let j =0;
+while(j < 1000){
+    j++;
     potenza = potenza * 2; 
     if(potenza >= 1000){
         potenza = potenza/2;
     }
 }
-console.log(potenza);
+console.log("Ultima potenza di 2 prima di 1000"+potenza);
 
 
 
